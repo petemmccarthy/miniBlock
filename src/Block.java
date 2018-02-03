@@ -7,8 +7,9 @@ public class Block {
 
     public String hash;
     public String previousHash;
-    private String data;
+    private String data; // data is a simple message here
     private long timeStamp; // as millis since 1/1/1970
+    private int nonce;
 
     // Block constructor
     public Block(String data, String previousHash) {
@@ -25,6 +26,15 @@ public class Block {
                 data
         );
         return calculatedHash;
+    }
+
+    public void mineBlock(int difficulty) {
+        String target = new String(new char[difficulty]).replace('\0', '0'); //Create a string with difficulty * "0"
+        while(!hash.substring( 0, difficulty).equals(target)) {
+            nonce ++;
+            hash = calculateHash();
+        }
+        System.out.println("Block Mined!!! : " + hash);
     }
 
 }
