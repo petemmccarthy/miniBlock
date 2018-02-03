@@ -15,5 +15,16 @@ public class Block {
         this.data = data;
         this.previousHash = previousHash;
         this.timeStamp = new Date().getTime();
+        this.hash = calculateHash(); // do this after you set up the pther values
     }
+
+    public String calculateHash() {
+        String calculatedHash = StringUtil.applySha256(
+                previousHash +
+                Long.toString(timeStamp) +
+                data
+        );
+        return calculatedHash;
+    }
+
 }
