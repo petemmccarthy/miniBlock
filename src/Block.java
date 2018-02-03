@@ -16,7 +16,7 @@ public class Block {
         this.data = data;
         this.previousHash = previousHash;
         this.timeStamp = new Date().getTime();
-        this.hash = calculateHash(); // do this after you set up the pther values
+        this.hash = calculateHash(); // do this after you set up the other values
     }
 
     public String calculateHash() {

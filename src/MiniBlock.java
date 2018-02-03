@@ -5,7 +5,8 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
 public class MiniBlock {
 
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
-    public static int difficulty = 1;
+    // difficulty above 5 and computation time increases significantly
+    public static int difficulty = 6;
 
     public static void main(String[] args) {
         //add blocks to the blockchain ArrayList:
