@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba94097a-5a3e-44c2-9ef2-43781cb75a51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniBlock/Block.class" afterPath="$PROJECT_DIR$/out/production/miniBlock/Block.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniBlock/MiniBlock.class" afterPath="$PROJECT_DIR$/out/production/miniBlock/MiniBlock.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniBlock/Block.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Block.java" afterPath="$PROJECT_DIR$/src/Block.java" />
-      <change beforePath="$PROJECT_DIR$/src/MiniBlock.java" afterPath="$PROJECT_DIR$/src/MiniBlock.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="MiniBlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MiniBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#210#217#0" expanded="true" />
@@ -34,10 +32,10 @@
       <file leaf-file-name="Block.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Block.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
-                <element signature="e#0#1213#0" expanded="true" />
+                <element signature="e#0#1255#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +78,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
-    <option name="y" value="43" />
+    <option name="x" value="102" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="917" />
   </component>
@@ -263,7 +261,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="43" width="1400" height="917" extended-state="0" />
+    <frame x="102" y="23" width="1400" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -318,7 +316,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding>
-            <element signature="e#0#1213#0" expanded="true" />
+            <element signature="e#0#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -365,8 +363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MiniBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#210#217#0" expanded="true" />
@@ -376,10 +374,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Block.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
-            <element signature="e#0#1213#0" expanded="true" />
+            <element signature="e#0#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>
