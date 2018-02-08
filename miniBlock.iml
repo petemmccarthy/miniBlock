@@ -16,5 +16,16 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bouncycastle_lib">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/bcprov-jdk15on-159.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="jar://$USER_HOME$/Downloads/bcprov-jdk15on-159.jar!/" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="bouncycastle_lib2" level="project" />
   </component>
 </module>

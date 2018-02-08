@@ -6,7 +6,7 @@ public class MiniBlock {
 
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
     // difficulty above 5 and computation time increases significantly
-    public static int difficulty = 6;
+    public static int difficulty = 1;
 
     public static void main(String[] args) {
         //add blocks to the blockchain ArrayList:
